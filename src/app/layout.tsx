@@ -3,6 +3,8 @@ import "./globals.css";
 import { BagProvider } from "@/lib/bag";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { EmailIntake } from "@/components/email-intake";
+import { CookieConsent } from "@/components/cookie-consent";
 import { BagDrawer, CartBar } from "@/components/bag-drawer";
 import { site } from "@/lib/catalog";
 import { inter } from "@/lib/fonts";
@@ -51,6 +53,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SiteFooter />
           <BagDrawer />
           <CartBar />
+          <EmailIntake />
+          <CookieConsent />
         </BagProvider>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
