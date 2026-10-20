@@ -1,0 +1,56 @@
+[
+  {
+    "sample": true,
+    "headline": "Our ube pandesal sells out before 10 a.m.",
+    "quote": "Two drops of PURE Ube in every batch and the color and aroma come out right every time. Regulars ask for it by name now.",
+    "name": "Marites Dela Cruz",
+    "role": "Owner, Panaderya ni Tess, Malolos",
+    "image": "/media/products/pure-ube-powder-1.webp",
+    "productId": "ube-powder"
+  },
+  {
+    "sample": true,
+    "headline": "Three new milk-tea flavors in one week",
+    "quote": "We tested lychee, matcha and mango side by side and launched all three. The concentrates mix clean into the base, no grainy bits.",
+    "name": "Jun Reyes",
+    "role": "Co-founder, Tsaa Tayo, Quezon City",
+    "image": "/media/products/pure-matcha-flavor-concentrate-2.webp",
+    "productId": "matcha"
+  },
+  {
+    "sample": true,
+    "headline": "Frosting that tastes like real strawberries",
+    "quote": "My buttercream finally tastes like the fruit, not like candy. A little goes a long way, so one bottle lasts me a month of orders.",
+    "name": "Bea Santos",
+    "role": "Home baker, Cakes by Bea, Cebu City",
+    "image": "/media/products/pure-strawberry-flavor-concentrate-2.webp",
+    "productId": "strawberry"
+  },
+  {
+    "sample": true,
+    "headline": "Mango shakes our customers line up for",
+    "quote": "Summer menu was all mango this year. Same taste in every cup, even when fresh mangoes are expensive or out of season.",
+    "name": "Carlo Mendoza",
+    "role": "Manager, Shake Shack Kanto, Davao",
+    "image": "/media/products/pure-mango-flavor-concentrate-2.webp",
+    "productId": "mango"
+  },
+  {
+    "sample": true,
+    "headline": "A cheesecake bar that tastes baked from scratch",
+    "quote": "We use the cheesecake flavor in our no-bake bars and nobody believes it. Easy to reorder on cash on delivery, too.",
+    "name": "Ana Villanueva",
+    "role": "Owner, Sweet Spot Desserts, Iloilo",
+    "image": "/media/recipes/recipe-peach-dish.webp",
+    "productId": "cheesecake"
+  },
+  {
+    "sample": true,
+    "headline": "Coffee drinks with a caramel finish, no syrup mess",
+    "quote": "Swapping syrups for a few drops of caramel saved shelf space and cut our cost per cup. The baristas like it more too.",
+    "name": "Paolo Garcia",
+    "role": "Head barista, Kape Kanto, Pasig",
+    "image": "/media/products/pure-coffee-flavor-concentrate-2.webp",
+    "productId": "caramel"
+  }
+]

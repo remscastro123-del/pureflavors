@@ -1,0 +1,43 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/collections/bakery-style-flavors/", "destination": "/collections/sweet-flavors/", "permanent": true },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "mypureflavors.com" }],
+      "destination": "https://www.mypureflavors.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/shop.html",
+      "has": [{ "type": "query", "key": "flavor", "value": "(?<flavor>[a-z0-9-]+)" }],
+      "destination": "/shop/:flavor/",
+      "permanent": true
+    },
+    {
+      "source": "/shop.html",
+      "has": [{ "type": "query", "key": "category", "value": "Bakery" }],
+      "destination": "/collections/bakery-powders/",
+      "permanent": true
+    },
+    { "source": "/shop.html", "destination": "/shop/", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/about.html", "destination": "/about/", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact/", "permanent": true },
+    { "source": "/recipe", "destination": "/recipes/", "permanent": true },
+    { "source": "/recipe/", "destination": "/recipes/", "permanent": true },
+    { "source": "/account", "destination": "/", "permanent": false },
+    { "source": "/account/", "destination": "/", "permanent": false }
+  ],
+  "headers": [
+    {
+      "source": "/media/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/_next/static/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
+}

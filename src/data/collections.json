@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "fruit-flavors",
+    "label": "Fruit",
+    "title": "Fruit flavor concentrates",
+    "match": {
+      "collection": "Flavor",
+      "category": "Fruit"
+    },
+    "intro": "Bright fruit flavors for shakes, juices, ice cream, cakes and fillings. Each one is a PURE food flavor concentrate, so a little goes a long way."
+  },
+  {
+    "slug": "creamy-flavors",
+    "label": "Creamy",
+    "title": "Creamy flavor concentrates",
+    "match": {
+      "collection": "Flavor",
+      "category": "Creamy"
+    },
+    "intro": "Milk, butter, custard and vanilla notes for frostings, ice cream, pastries and drinks."
+  },
+  {
+    "slug": "sweet-flavors",
+    "label": "Sweet",
+    "title": "Sweet flavor concentrates",
+    "match": {
+      "collection": "Flavor",
+      "category": "Sweet"
+    },
+    "intro": "Chocolate, caramel, honey, cheesecake, cinnamon roll, cookies & cream and more for frostings, candies, cakes and drinks."
+  },
+  {
+    "slug": "drink-flavors",
+    "label": "Drinks",
+    "title": "Drink flavor concentrates",
+    "match": {
+      "collection": "Flavor",
+      "category": "Drinks"
+    },
+    "intro": "Coffee, mocha, matcha and root beer flavors for drinks like milk tea, iced coffee and frappés, and for the desserts that go with them."
+  },
+  {
+    "slug": "bakery-powders",
+    "label": "Bakery powders",
+    "title": "Bakery powders",
+    "match": {
+      "collection": "Bakery"
+    },
+    "intro": "Ube, cocoa, cheese, moringa and baking powder in 100 g packs for breads, cakes and pastries."
+  }
+]

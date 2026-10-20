@@ -1,0 +1,58 @@
+[
+ {
+  "id": "lychee",
+  "title": "Lychee Sunset Martini",
+  "category": "Cocktails",
+  "summary": "A pink, citrus-bright cocktail with a delicate lychee finish.",
+  "time": "5 minutes",
+  "servings": "1 cocktail",
+  "ingredients": "2 oz vodka\n1 oz lychee liqueur\n0.5 oz lime juice\n0.5 oz simple syrup\n2–3 drops PURE Lychee Flavor\nFresh lychee, to garnish",
+  "method": "Add all ingredients to a shaker with ice.\nShake until chilled.\nStrain into a martini glass and garnish with fresh lychee.",
+  "image": "/media/recipes/recipe-lychee.webp",
+  "video": "",
+  "active": true,
+  "productId": "lychee"
+ },
+ {
+  "id": "cinnamon",
+  "title": "Cinnamon Roll Old Fashioned",
+  "category": "Cocktails",
+  "summary": "Warm cinnamon, maple and bourbon for a slow-sipping classic.",
+  "time": "5 minutes",
+  "servings": "1 cocktail",
+  "ingredients": "2 oz bourbon\n0.5 oz maple syrup\n2 dashes aromatic bitters\n8–10 drops PURE Cinnamon Roll Flavor\nCharred cinnamon stick and orange twist, to garnish",
+  "method": "Combine all ingredients in a mixing glass with ice.\nStir until well chilled.\nStrain into a rocks glass over a large ice cube.\nGarnish with cinnamon and an orange twist.",
+  "image": "/media/recipes/recipe-cinnamon.webp",
+  "video": "",
+  "active": true,
+  "productId": "cinnamon-roll"
+ },
+ {
+  "id": "honey",
+  "title": "Honey-Nutella Mousse Cake",
+  "category": "Desserts",
+  "summary": "Chocolate, hazelnut and honey in a chilled, creamy creation.",
+  "time": "Chill 4 hours",
+  "servings": "One cake",
+  "ingredients": "CRUST\n1½ cups chocolate cookie crumbs\n½ cup melted butter\nMOUSSE\n1 cup Nutella\n1 cup heavy cream\n2 tsp PURE Honey Flavor\n½ cup whipped cream\nTOPPING\nChocolate ganache, toasted hazelnuts and honey",
+  "method": "Combine crust ingredients, press into a pan and chill.\nWhip heavy cream to soft peaks.\nFold in Nutella and PURE Honey Flavor.\nGently fold in whipped cream.\nPour over the crust and chill for 4 hours.\nTop with ganache, hazelnuts and honey.",
+  "image": "/media/recipes/recipe-honey.webp",
+  "video": "",
+  "active": true,
+  "productId": "honey"
+ },
+ {
+  "id": "peach",
+  "title": "PURE Peach Graham Cake",
+  "category": "Desserts",
+  "summary": "Layers of peach, cream and graham for an easy homemade treat.",
+  "time": "Chill 4+ hours",
+  "servings": "8–10 servings",
+  "ingredients": "1 pack graham crackers\n2 cups heavy cream\n1 can condensed milk\n2–3 fresh peaches, thinly sliced\n1 tsp PURE Peach Flavor\n½ cup melted butter",
+  "method": "Mix crushed grahams and butter for the crust.\nWhip cream, condensed milk and PURE Peach Flavor until stiff.\nLayer crust, cream and peach slices in a dish. Repeat.\nChill for at least 4 hours.\nSlice and enjoy!",
+  "image": "/media/recipes/recipe-peach.webp",
+  "video": "",
+  "active": true,
+  "productId": "peach"
+ }
+]

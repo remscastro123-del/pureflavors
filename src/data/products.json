@@ -1,0 +1,1433 @@
+[
+ {
+  "id": "chocolate",
+  "name": "Chocolate",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 0,
+  "description": "Chocolate flavor concentrate for adding a chocolate note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-chocolate-flavor-concentrate-1",
+   "/media/products/pure-chocolate-flavor-concentrate-2",
+   "/media/products/pure-chocolate-flavor-concentrate-3",
+   "/media/products/pure-chocolate-flavor-concentrate-4",
+   "/media/products/pure-chocolate-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "tsokolate",
+   "choco"
+  ],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-14T09:14:19.799Z"
+ },
+ {
+  "id": "mango",
+  "name": "Mango",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 1,
+  "description": "Mango flavor concentrate for adding a mango note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-mango-flavor-concentrate-1",
+   "/media/products/pure-mango-flavor-concentrate-2",
+   "/media/products/pure-mango-flavor-concentrate-3",
+   "/media/products/pure-mango-flavor-concentrate-4",
+   "/media/products/pure-mango-flavor-concentrate-5"
+  ],
+  "featured": true,
+  "cardColor": "#f3d47b",
+  "aliases": [
+   "mangga"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T13:22:42.878Z"
+ },
+ {
+  "id": "strawberry",
+  "name": "Strawberry",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 2,
+  "description": "Strawberry flavor concentrate for adding a strawberry note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": "https://s.shopee.ph/80CdlS1KLB",
+  "photos": [
+   "/media/products/pure-strawberry-flavor-concentrate-1",
+   "/media/products/pure-strawberry-flavor-concentrate-2",
+   "/media/products/pure-strawberry-flavor-concentrate-3",
+   "/media/products/pure-strawberry-flavor-concentrate-4",
+   "/media/products/pure-strawberry-flavor-concentrate-5"
+  ],
+  "featured": true,
+  "cardColor": "#f2c4bb",
+  "aliases": [
+   "presa"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T16:05:33.505Z"
+ },
+ {
+  "id": "vanilla",
+  "name": "Vanilla",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": "30 ml",
+  "price": 23000,
+  "stock": null,
+  "position": 3,
+  "description": "Vanilla flavor concentrate for adding a vanilla note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-vanilla-flavor-concentrate-1",
+   "/media/products/pure-vanilla-flavor-concentrate-2",
+   "/media/products/pure-vanilla-flavor-concentrate-3",
+   "/media/products/pure-vanilla-flavor-concentrate-4",
+   "/media/products/pure-vanilla-flavor-concentrate-5"
+  ],
+  "featured": true,
+  "cardColor": "#e9dfc7",
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T13:47:49.238Z"
+ },
+ {
+  "id": "banana",
+  "name": "Banana",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 4,
+  "description": "Banana flavor concentrate for adding a banana note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-banana-flavor-concentrate-1",
+   "/media/products/pure-banana-flavor-concentrate-2",
+   "/media/products/pure-banana-flavor-concentrate-3",
+   "/media/products/pure-banana-flavor-concentrate-4",
+   "/media/products/pure-banana-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "saging"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T14:08:51.389Z"
+ },
+ {
+  "id": "banana-bread",
+  "name": "Banana Bread",
+  "collection": "Flavor",
+  "category": "Bakery",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 5,
+  "description": "Banana Bread flavor concentrate for adding a banana bread note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-banana-bread-flavor-concentrate-1",
+   "/media/products/pure-banana-bread-flavor-concentrate-2",
+   "/media/products/pure-banana-bread-flavor-concentrate-3",
+   "/media/products/pure-banana-bread-flavor-concentrate-4",
+   "/media/products/pure-banana-bread-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-13T14:13:45.353Z"
+ },
+ {
+  "id": "beef",
+  "name": "Beef",
+  "collection": "Flavor",
+  "category": "Savory",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 6,
+  "description": "Beef flavor concentrate for adding a beef note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-beef-flavor-concentrate-1",
+   "/media/products/pure-beef-flavor-concentrate-2",
+   "/media/products/pure-beef-flavor-concentrate-3",
+   "/media/products/pure-beef-flavor-concentrate-4",
+   "/media/products/pure-beef-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "soup",
+   "snacks",
+   "seasoning"
+  ],
+  "updatedAt": "2026-09-13T14:19:19.997Z"
+ },
+ {
+  "id": "blueberry",
+  "name": "Blueberry",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 7,
+  "description": "Blueberry flavor concentrate for adding a blueberry note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-blueberry-flavor-concentrate-1",
+   "/media/products/pure-blueberry-flavor-concentrate-2",
+   "/media/products/pure-blueberry-flavor-concentrate-3",
+   "/media/products/pure-blueberry-flavor-concentrate-4",
+   "/media/products/pure-blueberry-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T14:21:37.949Z"
+ },
+ {
+  "id": "bubblegum",
+  "name": "Bubblegum",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 8,
+  "description": "Bubblegum flavor concentrate for adding a bubblegum note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-bubblegum-flavor-concentrate-1",
+   "/media/products/pure-bubblegum-flavor-concentrate-2",
+   "/media/products/pure-bubblegum-flavor-concentrate-3",
+   "/media/products/pure-bubblegum-flavor-concentrate-4",
+   "/media/products/pure-bubblegum-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:55:32.119Z"
+ },
+ {
+  "id": "butter",
+  "name": "Butter",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 9,
+  "description": "Butter flavor concentrate for adding a butter note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-butter-flavor-concentrate-1",
+   "/media/products/pure-butter-flavor-concentrate-2",
+   "/media/products/pure-butter-flavor-concentrate-3",
+   "/media/products/pure-butter-flavor-concentrate-4",
+   "/media/products/pure-butter-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T14:27:21.550Z"
+ },
+ {
+  "id": "buttercream",
+  "name": "Buttercream",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 10,
+  "description": "Buttercream flavor concentrate for adding a buttercream note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-buttercream-flavor-concentrate-1",
+   "/media/products/pure-buttercream-flavor-concentrate-2",
+   "/media/products/pure-buttercream-flavor-concentrate-3",
+   "/media/products/pure-buttercream-flavor-concentrate-4",
+   "/media/products/pure-buttercream-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T15:50:17.510Z"
+ },
+ {
+  "id": "caramel",
+  "name": "Caramel",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 11,
+  "description": "Caramel flavor concentrate for adding a caramel note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-caramel-flavor-concentrate-1",
+   "/media/products/pure-caramel-flavor-concentrate-2",
+   "/media/products/pure-caramel-flavor-concentrate-3",
+   "/media/products/pure-caramel-flavor-concentrate-4",
+   "/media/products/pure-caramel-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T14:35:43.056Z"
+ },
+ {
+  "id": "cheesecake",
+  "name": "Cheesecake",
+  "collection": "Flavor",
+  "category": "Bakery",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 12,
+  "description": "Cheesecake flavor concentrate for adding a cheesecake note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-cheesecake-flavor-concentrate-1",
+   "/media/products/pure-cheesecake-flavor-concentrate-2",
+   "/media/products/pure-cheesecake-flavor-concentrate-3",
+   "/media/products/pure-cheesecake-flavor-concentrate-4",
+   "/media/products/pure-cheesecake-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-13T14:49:05.719Z"
+ },
+ {
+  "id": "cinnamon-roll",
+  "name": "Cinnamon Roll",
+  "collection": "Flavor",
+  "category": "Bakery",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 13,
+  "description": "Cinnamon Roll flavor concentrate for adding a cinnamon roll note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-cinnamon-roll-flavor-concentrate-1",
+   "/media/products/pure-cinnamon-roll-flavor-concentrate-2",
+   "/media/products/pure-cinnamon-roll-flavor-concentrate-3",
+   "/media/products/pure-cinnamon-roll-flavor-concentrate-4",
+   "/media/products/pure-cinnamon-roll-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-13T15:09:01.875Z"
+ },
+ {
+  "id": "coconut",
+  "name": "Coconut",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 14,
+  "description": "Coconut flavor concentrate for adding a coconut note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-coconut-flavor-concentrate-1",
+   "/media/products/pure-coconut-flavor-concentrate-2",
+   "/media/products/pure-coconut-flavor-concentrate-3",
+   "/media/products/pure-coconut-flavor-concentrate-4",
+   "/media/products/pure-coconut-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "niyog",
+   "buko"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:11:10.160Z"
+ },
+ {
+  "id": "coffee",
+  "name": "Coffee",
+  "collection": "Flavor",
+  "category": "Drinks",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 15,
+  "description": "Coffee flavor concentrate for adding a coffee note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-coffee-flavor-concentrate-1",
+   "/media/products/pure-coffee-flavor-concentrate-2",
+   "/media/products/pure-coffee-flavor-concentrate-3",
+   "/media/products/pure-coffee-flavor-concentrate-4",
+   "/media/products/pure-coffee-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "kape"
+  ],
+  "uses": [
+   "milk tea",
+   "coffee",
+   "frappe",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:24:37.341Z"
+ },
+ {
+  "id": "condensed-milk",
+  "name": "Condensed Milk",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 16,
+  "description": "Condensed Milk flavor concentrate for adding a condensed milk note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-condensed-milk-flavor-concentrate-1",
+   "/media/products/pure-condensed-milk-flavor-concentrate-2",
+   "/media/products/pure-condensed-milk-flavor-concentrate-3",
+   "/media/products/pure-condensed-milk-flavor-concentrate-4",
+   "/media/products/pure-condensed-milk-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "gatas",
+   "milk"
+  ],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T15:45:22.366Z"
+ },
+ {
+  "id": "cookie-and-cream",
+  "name": "Cookie & Cream",
+  "collection": "Flavor",
+  "category": "Bakery",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 17,
+  "description": "Cookie & Cream flavor concentrate for adding a cookie & cream note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-cookie-and-cream-flavor-concentrate-1",
+   "/media/products/pure-cookie-and-cream-flavor-concentrate-2",
+   "/media/products/pure-cookie-and-cream-flavor-concentrate-3",
+   "/media/products/pure-cookie-and-cream-flavor-concentrate-4",
+   "/media/products/pure-cookie-and-cream-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-13T15:24:02.540Z"
+ },
+ {
+  "id": "custard",
+  "name": "Custard",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 18,
+  "description": "Custard flavor concentrate for adding a custard note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-custard-flavor-concentrate-1",
+   "/media/products/pure-custard-flavor-concentrate-2",
+   "/media/products/pure-custard-flavor-concentrate-3",
+   "/media/products/pure-custard-flavor-concentrate-4",
+   "/media/products/pure-custard-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T15:49:46.890Z"
+ },
+ {
+  "id": "french-vanilla",
+  "name": "French Vanilla",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 19,
+  "description": "French Vanilla flavor concentrate for adding a french vanilla note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-french-vanilla-flavor-concentrate-1",
+   "/media/products/pure-french-vanilla-flavor-concentrate-2",
+   "/media/products/pure-french-vanilla-flavor-concentrate-3",
+   "/media/products/pure-french-vanilla-flavor-concentrate-4",
+   "/media/products/pure-french-vanilla-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T15:40:52.625Z"
+ },
+ {
+  "id": "fresh-milk",
+  "name": "Fresh Milk",
+  "collection": "Flavor",
+  "category": "Creamy",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 20,
+  "description": "Fresh Milk flavor concentrate for adding a fresh milk note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-fresh-milk-flavor-concentrate-1",
+   "/media/products/pure-fresh-milk-flavor-concentrate-2",
+   "/media/products/pure-fresh-milk-flavor-concentrate-3",
+   "/media/products/pure-fresh-milk-flavor-concentrate-4",
+   "/media/products/pure-fresh-milk-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "gatas",
+   "milk"
+  ],
+  "uses": [
+   "frosting",
+   "ice cream",
+   "cake",
+   "pastry"
+  ],
+  "updatedAt": "2026-09-13T15:55:00.924Z"
+ },
+ {
+  "id": "grape",
+  "name": "Grape",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 21,
+  "description": "Grape flavor concentrate for adding a grape note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-grape-flavor-concentrate-1",
+   "/media/products/pure-grape-flavor-concentrate-2",
+   "/media/products/pure-grape-flavor-concentrate-3",
+   "/media/products/pure-grape-flavor-concentrate-4",
+   "/media/products/pure-grape-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "ubas"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:27:02.207Z"
+ },
+ {
+  "id": "green-apple",
+  "name": "Green Apple",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 22,
+  "description": "Green Apple flavor concentrate for adding a green apple note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-green-apple-flavor-concentrate-1",
+   "/media/products/pure-green-apple-flavor-concentrate-2",
+   "/media/products/pure-green-apple-flavor-concentrate-3",
+   "/media/products/pure-green-apple-flavor-concentrate-4",
+   "/media/products/pure-green-apple-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:16:57.001Z"
+ },
+ {
+  "id": "hazelnut-chocolate",
+  "name": "Hazelnut Chocolate",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 23,
+  "description": "Hazelnut Chocolate flavor concentrate for adding a hazelnut chocolate note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-hazelnut-chocolate-flavor-concentrate-1",
+   "/media/products/pure-hazelnut-chocolate-flavor-concentrate-2",
+   "/media/products/pure-hazelnut-chocolate-flavor-concentrate-3",
+   "/media/products/pure-hazelnut-chocolate-flavor-concentrate-4",
+   "/media/products/pure-hazelnut-chocolate-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:56:55.678Z"
+ },
+ {
+  "id": "honey",
+  "name": "Honey",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 24,
+  "description": "Honey flavor concentrate for adding a honey note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-honey-flavor-concentrate-1",
+   "/media/products/pure-honey-flavor-concentrate-2",
+   "/media/products/pure-honey-flavor-concentrate-3",
+   "/media/products/pure-honey-flavor-concentrate-4",
+   "/media/products/pure-honey-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "pulot"
+  ],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:47:09.234Z"
+ },
+ {
+  "id": "lemon",
+  "name": "Lemon",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 25,
+  "description": "Lemon flavor concentrate for adding a lemon note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-lemon-flavor-concentrate-1",
+   "/media/products/pure-lemon-flavor-concentrate-2",
+   "/media/products/pure-lemon-flavor-concentrate-3",
+   "/media/products/pure-lemon-flavor-concentrate-4",
+   "/media/products/pure-lemon-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "lemonade"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:20:10.661Z"
+ },
+ {
+  "id": "lychee",
+  "name": "Lychee",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 26,
+  "description": "Lychee flavor concentrate for adding a lychee note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-lychee-flavor-concentrate-1",
+   "/media/products/pure-lychee-flavor-concentrate-2",
+   "/media/products/pure-lychee-flavor-concentrate-3",
+   "/media/products/pure-lychee-flavor-concentrate-4",
+   "/media/products/pure-lychee-flavor-concentrate-5"
+  ],
+  "featured": true,
+  "cardColor": "#eee1cd",
+  "aliases": [],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:12:37.458Z"
+ },
+ {
+  "id": "matcha",
+  "name": "Matcha",
+  "collection": "Flavor",
+  "category": "Drinks",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 27,
+  "description": "Matcha flavor concentrate for adding a matcha note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-matcha-flavor-concentrate-1",
+   "/media/products/pure-matcha-flavor-concentrate-2",
+   "/media/products/pure-matcha-flavor-concentrate-3",
+   "/media/products/pure-matcha-flavor-concentrate-4",
+   "/media/products/pure-matcha-flavor-concentrate-5"
+  ],
+  "featured": true,
+  "cardColor": "#dbe2bd",
+  "aliases": [],
+  "uses": [
+   "milk tea",
+   "coffee",
+   "frappe",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:14:28.782Z"
+ },
+ {
+  "id": "mocha",
+  "name": "Mocha",
+  "collection": "Flavor",
+  "category": "Drinks",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 28,
+  "description": "Mocha flavor concentrate for adding a mocha note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-mocha-flavor-concentrate-1",
+   "/media/products/pure-mocha-flavor-concentrate-2",
+   "/media/products/pure-mocha-flavor-concentrate-3",
+   "/media/products/pure-mocha-flavor-concentrate-4",
+   "/media/products/pure-mocha-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "milk tea",
+   "coffee",
+   "frappe",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:42:21.335Z"
+ },
+ {
+  "id": "orange",
+  "name": "Orange",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 29,
+  "description": "Orange flavor concentrate for adding a orange note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-orange-flavor-concentrate-1",
+   "/media/products/pure-orange-flavor-concentrate-2",
+   "/media/products/pure-orange-flavor-concentrate-3",
+   "/media/products/pure-orange-flavor-concentrate-4",
+   "/media/products/pure-orange-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "dalandan"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:30:39.195Z"
+ },
+ {
+  "id": "peach",
+  "name": "Peach",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 30,
+  "description": "Peach flavor concentrate for adding a peach note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-peach-flavor-concentrate-1",
+   "/media/products/pure-peach-flavor-concentrate-2",
+   "/media/products/pure-peach-flavor-concentrate-3",
+   "/media/products/pure-peach-flavor-concentrate-4",
+   "/media/products/pure-peach-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:18:01.741Z"
+ },
+ {
+  "id": "pineapple",
+  "name": "Pineapple",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 31,
+  "description": "Pineapple flavor concentrate for adding a pineapple note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-pineapple-flavor-concentrate-1",
+   "/media/products/pure-pineapple-flavor-concentrate-2",
+   "/media/products/pure-pineapple-flavor-concentrate-3",
+   "/media/products/pure-pineapple-flavor-concentrate-4",
+   "/media/products/pure-pineapple-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "pinya"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T15:19:39.246Z"
+ },
+ {
+  "id": "pistachio",
+  "name": "Pistachio",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 32,
+  "description": "Pistachio flavor concentrate for adding a pistachio note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-pistachio-flavor-concentrate-1",
+   "/media/products/pure-pistachio-flavor-concentrate-2",
+   "/media/products/pure-pistachio-flavor-concentrate-3",
+   "/media/products/pure-pistachio-flavor-concentrate-4",
+   "/media/products/pure-pistachio-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:41:34.211Z"
+ },
+ {
+  "id": "root-beer",
+  "name": "Root Beer",
+  "collection": "Flavor",
+  "category": "Drinks",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 33,
+  "description": "Root Beer flavor concentrate for adding a root beer note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-root-beer-flavor-concentrate-1",
+   "/media/products/pure-root-beer-flavor-concentrate-2",
+   "/media/products/pure-root-beer-flavor-concentrate-3",
+   "/media/products/pure-root-beer-flavor-concentrate-4",
+   "/media/products/pure-root-beer-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "milk tea",
+   "coffee",
+   "frappe",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:25:47.525Z"
+ },
+ {
+  "id": "salted-caramel",
+  "name": "Salted Caramel",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 34,
+  "description": "Salted Caramel flavor concentrate for adding a salted caramel note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-salted-caramel-flavor-concentrate-1",
+   "/media/products/pure-salted-caramel-flavor-concentrate-2",
+   "/media/products/pure-salted-caramel-flavor-concentrate-3",
+   "/media/products/pure-salted-caramel-flavor-concentrate-4",
+   "/media/products/pure-salted-caramel-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T14:36:25.261Z"
+ },
+ {
+  "id": "toffee",
+  "name": "Toffee",
+  "collection": "Flavor",
+  "category": "Sweet",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 35,
+  "description": "Toffee flavor concentrate for adding a toffee note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-toffee-flavor-concentrate-1",
+   "/media/products/pure-toffee-flavor-concentrate-2",
+   "/media/products/pure-toffee-flavor-concentrate-3",
+   "/media/products/pure-toffee-flavor-concentrate-4",
+   "/media/products/pure-toffee-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "frosting",
+   "candy",
+   "cake",
+   "drinks"
+  ],
+  "updatedAt": "2026-09-13T15:58:20.900Z"
+ },
+ {
+  "id": "watermelon",
+  "name": "Watermelon",
+  "collection": "Flavor",
+  "category": "Fruit",
+  "type": "Food flavor concentrate",
+  "size": null,
+  "price": 23000,
+  "stock": null,
+  "position": 36,
+  "description": "Watermelon flavor concentrate for adding a watermelon note to your recipes.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-watermelon-flavor-concentrate-1",
+   "/media/products/pure-watermelon-flavor-concentrate-2",
+   "/media/products/pure-watermelon-flavor-concentrate-3",
+   "/media/products/pure-watermelon-flavor-concentrate-4",
+   "/media/products/pure-watermelon-flavor-concentrate-5"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "pakwan"
+  ],
+  "uses": [
+   "shakes",
+   "juice",
+   "ice cream",
+   "cake"
+  ],
+  "updatedAt": "2026-09-13T16:01:17.784Z"
+ },
+ {
+  "id": "ube-powder",
+  "name": "Ube Powder",
+  "collection": "Bakery",
+  "category": "Bakery",
+  "type": "Baking ingredient",
+  "size": "100 g",
+  "price": 12000,
+  "stock": null,
+  "position": 37,
+  "description": "Ube Powder for your baking and kitchen creations.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-ube-powder-1"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "ube",
+   "purple yam"
+  ],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-12T13:35:30.569Z"
+ },
+ {
+  "id": "cocoa-powder",
+  "name": "Cocoa Powder",
+  "collection": "Bakery",
+  "category": "Bakery",
+  "type": "Baking ingredient",
+  "size": "100 g",
+  "price": 12000,
+  "stock": null,
+  "position": 38,
+  "description": "Cocoa Powder for your baking and kitchen creations.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-cocoa-powder-1"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "cacao",
+   "tsokolate"
+  ],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-12T13:35:31.676Z"
+ },
+ {
+  "id": "cheese-powder",
+  "name": "Cheese Powder",
+  "collection": "Bakery",
+  "category": "Bakery",
+  "type": "Baking ingredient",
+  "size": "100 g",
+  "price": 12000,
+  "stock": null,
+  "position": 39,
+  "description": "Cheese Powder for your baking and kitchen creations.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-cheese-powder-1"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "keso"
+  ],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-12T13:35:32.803Z"
+ },
+ {
+  "id": "moringa-powder",
+  "name": "Moringa Powder",
+  "collection": "Bakery",
+  "category": "Bakery",
+  "type": "Baking ingredient",
+  "size": "100 g",
+  "price": 12000,
+  "stock": null,
+  "position": 40,
+  "description": "Moringa Powder for your baking and kitchen creations.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-moringa-powder-1"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [
+   "malunggay"
+  ],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-12T13:35:33.883Z"
+ },
+ {
+  "id": "baking-powder",
+  "name": "Baking Powder",
+  "collection": "Bakery",
+  "category": "Bakery",
+  "type": "Baking ingredient",
+  "size": "100 g",
+  "price": 12000,
+  "stock": null,
+  "position": 41,
+  "description": "Baking Powder for your baking and kitchen creations.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": null,
+  "photos": [
+   "/media/products/pure-baking-powder-1"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [
+   "cake",
+   "bread",
+   "pastry",
+   "frosting"
+  ],
+  "updatedAt": "2026-09-12T13:35:34.878Z"
+ },
+ {
+  "id": "baking-tray",
+  "name": "Baking tray",
+  "collection": "Equipment",
+  "category": "Equipment",
+  "type": "Equipment",
+  "size": null,
+  "price": null,
+  "stock": null,
+  "position": 9999,
+  "description": "baking tray for your baking and kitchen creations.",
+  "usage": "Follow the directions on the product label and the measurements in your recipe.",
+  "ingredients": "Refer to the package for the ingredient list and allergen information.",
+  "storage": "Keep sealed and follow the storage instructions on the package.",
+  "shopeeUrl": "https://s.shopee.ph/9AObvU62oG",
+  "photos": [
+   "/media/products/pure-baking-tray-1"
+  ],
+  "featured": false,
+  "cardColor": null,
+  "aliases": [],
+  "uses": [],
+  "updatedAt": "2026-09-14T03:42:57.410Z"
+ }
+]

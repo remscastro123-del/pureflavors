@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+/* Headings: Rythme Rounded (single weight, condensed). Body stays Inter. No ₱ glyph, so ₱ falls back to Inter.
+   The WOFF2 shipped in the font package has no outlines; ours is rebuilt from the TTF with fontTools. */
+@font-face {
+  font-family: "Rythme Rounded";
+  src: url("/fonts/Rythme-Rounded.woff2?v=2") format("woff2"), url("/fonts/Rythme-Rounded.woff?v=2") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* PURE base tokens, taken from the original site (shop.css :root + favicon). Light-only by design.
+   The plain theme block at the end of this file overrides these; /style-guide/ shows the result. */
+@theme {
+  --color-cream: #f8f3e9;
+  --color-paper: #fffdf8;
+  --color-sand: #efe7da;
+  --color-line: #d8cfbf;
+  --color-ink: #29231b;
+  --color-muted: #6b655c;
+  --color-green: #254c36;
+  --color-green-dark: #1b3a29;
+  --color-amber: #a8650f;
+  --color-honey: #ffbf39;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-sans: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+html {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 88px;
+}
+body {
+  font-family: var(--font-sans);
+  background: var(--color-cream);
+}
+h1, h2, h3 { text-wrap: balance; }
+.font-display { font-family: var(--font-display); font-weight: 400; }
+.eyebrow { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; font-weight: 600; }
+
+:focus-visible { outline: 2px solid var(--color-green); outline-offset: 3px; border-radius: 4px; }
+
+.skeleton { background: linear-gradient(90deg, #eef1ef, #f7f8f7, #eef1ef); background-size: 200% 100%; animation: shimmer 1.2s infinite; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+
+/* Form controls live in src/components/ui/form.tsx (single source). */
+/* SearchInput draws its own clear button, so hide the browser's built-in one. */
+input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; appearance: none; }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* ==========================================================================
+   Plain theme (temporary, October 2026): white, green, dark grey text.
+   The amber-* utilities are remapped to green here, so the whole site recolors from this one block.
+   ========================================================================== */
+@theme {
+  --color-cream: #ffffff;
+  --color-paper: #ffffff;
+  --color-sand: #f4f6f5;
+  --color-line: #e2e5e3;
+  --color-ink: #333333;
+  --color-muted: #5f6361;
+  --color-amber: #1f7a47;
+  --color-honey: #b0e3c4;
+  --color-amber-50: #effaf3;
+  --color-amber-100: #d7f2e0;
+  --color-amber-200: #b0e3c4;
+  --color-amber-300: #7fcd9f;
+  --color-amber-400: #4bb077;
+  --color-amber-500: #2a9459;
+  --color-amber-600: #1f7a47;
+  --color-amber-700: #1b623b;
+  --color-amber-800: #194f31;
+  --color-amber-900: #15402a;
+  --color-amber-950: #0a2416;
+  --color-danger: #c4320a;
+}
+html, body { background: #fff; color: #333; }
+body { --font-display: "Rythme Rounded", var(--font-inter), -apple-system, "Helvetica Neue", Arial, sans-serif; --font-sans: var(--font-inter), -apple-system, "Helvetica Neue", Arial, sans-serif; font-family: var(--font-sans); }
+.font-display { font-weight: 400; letter-spacing: 0; }
+.eyebrow { letter-spacing: .08em; }
+:focus-visible { outline-color: var(--color-amber-600); }
+
+/* Goo blobs (intro steps): slow drift and breathe. Off with reduced motion. */
+@keyframes goo-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(8%, 6%) scale(1.08); }
+  66% { transform: translate(-6%, 4%) scale(.94); }
+}
+.goo-blob { animation: goo-drift 24s ease-in-out infinite; }
+@keyframes step-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .goo-blob { animation: none; } }
+
+/* UGC carousel: content slides in from the direction of travel; active dot countdown */
+@keyframes ugc-in-fwd { from { opacity: 0; transform: translateX(80px); } to { opacity: 1; transform: none; } }
+@keyframes ugc-in-back { from { opacity: 0; transform: translateX(-80px); } to { opacity: 1; transform: none; } }
+@keyframes ugc-progress { from { width: 0; } to { width: 100%; } }
+
+/* Goo tiles (icon grid). Phones: 92x112 tiles, 10x34 bridges. 768px+: 112x136 tiles, 12x42 bridges.
+   --l / --r are 1 when the tile is joined to a neighbour on that side. */
+.goo-tile { width: calc(92px + (var(--l) + var(--r)) * 10px); }
+.goo-tile > a { height: 112px; }
+.goo-bridge { height: 34px; flex: 0 1 10px; }
+.goo-body { border-radius: 16px; padding: 20px; flex: 1 0 auto; transition: padding .2s ease-in-out, margin .2s ease-in-out; }
+.goo-icon { width: 53px; height: 53px; }
+.goo-tile > a:hover .goo-body, .goo-tile > a:focus-visible .goo-body {
+  padding: 25px; margin-left: calc((var(--l) - 1) * 5px); margin-right: calc((var(--r) - 1) * 5px);
+}
+.goo-tile > a:focus-visible .goo-body { outline: 2px solid var(--color-amber-600); }
+@media (min-width: 768px) {
+  .goo-tile { width: calc(112px + (var(--l) + var(--r)) * 12px); }
+  .goo-tile > a { height: 136px; }
+  .goo-bridge { height: 42px; flex-basis: 12px; }
+  .goo-body { border-radius: 24px; padding: 24px; }
+  .goo-icon { width: 64px; height: 64px; }
+  .goo-tile > a:hover .goo-body, .goo-tile > a:focus-visible .goo-body {
+    padding: 30px; margin-left: calc((var(--l) - 1) * 6px); margin-right: calc((var(--r) - 1) * 6px);
+  }
+}
+@media (prefers-reduced-motion: reduce) { .goo-body { transition: none; } }
+
+/* Intro step visuals: replay each time a step becomes active. Off with reduced motion. */
+@keyframes vis-frame { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: none; } }
+@keyframes vis-blob { from { transform: scale(.3) translate(30%, -30%); opacity: 0; } to { transform: none; opacity: .5; } }
+@keyframes vis-rise { from { opacity: 0; transform: translateY(36px) scale(.92); } to { opacity: 1; transform: none; } }
+@keyframes vis-pop { from { opacity: 0; transform: scale(.6); } to { opacity: 1; transform: none; } }
+@keyframes vis-slide { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: none; } }
+@keyframes vis-kenburns { from { transform: scale(1.14); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { [style*="vis-"] { animation: none !important; } }
+
+/* Testimonial slider: a card mounting at an end slides in from 120px outside and fades (calendly.com) */
+@keyframes ugc-enter-r { from { transform: translateX(120px); opacity: 0; } }
+@keyframes ugc-enter-l { from { transform: translateX(-120px); opacity: 0; } }
+@keyframes ugc-exit-r { to { transform: translateX(120px); opacity: 0; } }
+@keyframes ugc-exit-l { to { transform: translateX(-120px); opacity: 0; } }
+
+/* ==========================================================================
+   Interaction layer, after calendly.com: 0.15s colour/border easing with cubic-bezier(.4,0,.2,1),
+   arrow icons that lean toward where they lead on hover (and a touch less on press), soft press scales,
+   native smooth scrolling. Everything here is off under prefers-reduced-motion (rule near the top of this file).
+   ========================================================================== */
+html { scroll-behavior: smooth; }
+:root { --ease-ui: cubic-bezier(.4, 0, .2, 1); }
+@layer base {
+  /* in the base layer so any transition set on a component still wins */
+  a, button, summary, [role="tab"] { transition-property: color, background-color, border-color, text-decoration-color, opacity, scale, box-shadow; transition-duration: .15s; transition-timing-function: var(--ease-ui); }
+}
+svg.lucide-arrow-right, svg.lucide-arrow-up-right, svg.lucide-arrow-left, svg.lucide-chevron-right, svg.lucide-chevron-down { transition: translate .2s var(--ease-ui), rotate .2s var(--ease-ui); }
+@media (hover: hover) {
+  a:hover svg.lucide-arrow-right, button:hover svg.lucide-arrow-right { translate: 3px 0; }
+  a:hover svg.lucide-arrow-up-right, button:hover svg.lucide-arrow-up-right { translate: 2px -2px; }
+  a:hover svg.lucide-arrow-left, button:hover svg.lucide-arrow-left { translate: -3px 0; }
+  a:hover svg.lucide-chevron-right, button:hover svg.lucide-chevron-right { translate: 2px 0; }
+}
+a:active svg.lucide-arrow-right, button:active svg.lucide-arrow-right { translate: 1px 0; }
+:focus-visible { transition: outline-offset .15s var(--ease-ui); }
+
+/* Accordions (<details>): the answer opens and closes by height where the browser supports it */
+:root { interpolate-size: allow-keywords; }
+details::details-content { block-size: 0; overflow: clip; transition: block-size .3s var(--ease-ui), content-visibility .3s allow-discrete; }
+details[open]::details-content { block-size: auto; }
+
+/* Dialogs (cart drawer): slide in from the right, backdrop fades */
+dialog[open] { animation: drawer-in .35s var(--ease-ui); }
+dialog[open]::backdrop { animation: fade-in .25s var(--ease-ui); }
+@keyframes drawer-in { from { translate: 100% 0; } }
+@keyframes fade-in { from { opacity: 0; } }
+
+/* Popovers and menus that mount on open */
+@keyframes pop-in { from { opacity: 0; translate: 0 -6px; scale: .98; } }
+.animate-pop { animation: pop-in .2s var(--ease-ui); transform-origin: top left; }
+@keyframes sheet-in { from { opacity: 0; translate: 0 -10px; } }
+.animate-sheet { animation: sheet-in .25s var(--ease-ui); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  details::details-content { transition: none; }
+}
